@@ -4,9 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drawing Prompt Jar</title>
-    <!-- <link rel="stylesheet" href="../css/reset.css"> not sure this path is correct -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    
+    <main>
+        <h1>Drawing Prompt Jar</h1>
+        <p>Pick a creative limitation, then draw what you're given.</p>
+
+        <form id="limitation-form">
+
+            <div class="option">
+                <input type="radio" name="limitation" id="option-1">
+                <label for="option-1">Loading...</label>
+            </div>
+
+            <div class="option">
+                <input type="radio" name="limitation" id="option-2">
+                <label for="option-2">Loading...</label>
+            </div>
+
+            <div class="option">
+                <input type="radio" name="limitation" id="option-3">
+                <label for="option-3">Loading...</label>
+            </div>
+
+            <div class="option">
+                <input type="radio" name="limitation" id="option-4">
+                <label for="option-4">Loading...</label>
+            </div>
+
+            <div class="option">
+                <input type="radio" name="limitation" id="option-5">
+                <label for="option-5">Loading...</label>
+            </div>
+
+            <button type="submit">Start Session</button>
+
+        </form>
+    </main>
+
+    <script type="module" src="./js/main.js"></script>
 </body>
 </html>
