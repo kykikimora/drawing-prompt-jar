@@ -99,14 +99,14 @@ git clone https://github.com/kykikimora/drawing-prompt-jar.git
 ### 2. Install dependencies
 
 ```bash
-npm ALL THE DEPENDENCIES! //(I think just node?)
+npm install
 ```
 
 ### 3. Create `.env` file
 
 ```
 UNSPLASH_ACCESS_KEY=your_access_key_here
-PORT=3000
+PORT=8080
 ```
 
 ### 4. Start server
@@ -119,7 +119,7 @@ node server.js
 ### 5. Visit
 
 ```
-http://localhost:3000
+http://localhost:8080
 ```
 
 ---
