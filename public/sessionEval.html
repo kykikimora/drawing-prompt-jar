@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Self Eval</h1>
+
+    <form id="eval-form">
+        <label for="date">Date</label>
+        <input id="datetime" name="date" type="date">
+        <fieldset>
+            <legend>Rate Yourself:</legend>
+
+            <input type="radio" id="score-one" name="score" value="1" selected/>
+            <label class="form-label" for="score-one">1</label><br />
+
+            <input type="radio" id="score-two" name="score" value="2" />
+            <label class="form-label" for="score-two">2</label><br />
+
+            <input type="radio" id="score-three" name="score" value="3" />
+            <label class="form-label" for="score">3</label><br />
+
+            <input type="radio" id="score-four" name="score" value="4" />
+            <label class="form-label" for="score-four">4</label><br />
+
+            <input type="radio" id="score-five" name="score" value="5" />
+            <label class="form-label" for="score-five">5</label><br />
+        </fieldset>
+
+        <button>Submit!</button>
+    </form>
+    <a href="index.html">Back to Home!</a>
+
+    <script type="module" src="./js/sessionEval.js"></script>
+</body>
+</html>
